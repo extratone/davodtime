@@ -1,3 +1,5 @@
+![MMddYYYY-HHmmss](/media/davodtime.png)
+
 # MMddYYYY-HHmmss
 Updated `12042023-100354`
 
@@ -32,7 +34,7 @@ Ex:
 
 ### Source
 
-![Showcuts Source](shortcuts/Showcuts.png)
+![Showcuts Source](/shortcut/Showcuts.png)
 
 - [**GitHub Pages**](https://extratone.github.io/davodtime/shortcut/DavodTime.html) (HTML)
 - [JSON](https://github.com/extratone/davodtime/blob/main/shortcut/DavodTime.json)
