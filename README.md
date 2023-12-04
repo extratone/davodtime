@@ -23,14 +23,30 @@ Ex:
 ---
 
 ## Siri Shortcut
-- [#2](https://github.com/extratone/davodtime/issues/3)
+- [#3](https://github.com/extratone/davodtime/issues/3)
 
 - [**RoutineHub Page**](https://routinehub.co/shortcut/10872)
 - [iCloud Share URL](https://www.icloud.com/shortcuts/cc71704b3a9a4f98949b59fdeba49e24)
+- [Raw Repository File](https://github.com/extratone/davodtime/blob/main/shortcut/DavodTime.shortcut)
 - [iCloud Share URL](https://www.icloud.com/shortcuts/5a4ebd4ed057415b8915c535951c1059) - *Version 1.0*
 
+### Source
+
+![Showcuts Source](shortcuts/Showcuts.png)
+
+- [**GitHub Pages**](https://extratone.github.io/davodtime/shortcut/DavodTime.html) (HTML)
+- [JSON](https://github.com/extratone/davodtime/blob/main/shortcut/DavodTime.json)
+- [Showcuts](https://showcuts.app/share/view/cc71704b3a9a4f98949b59fdeba49e24)
+
+```jelly
+date() >> date
+formatDate(date: "${Date}", dStyle: Custom, custom: "MMddYYYY-HHmmss") >> formatDate
+var DavodTime = Formatted Date
+setClipboard(variable: Formatted Date) >> setClipboard
+```
+
 ### WordPress Date/Time
-- [#4](https://github.com/extratone/davodtime/issues/4)
+- [#4](https://github.com/extratone/davodtime/issues/3)
 
 As specified in [this documentation](https://wordpress.org/documentation/article/customize-date-and-time-format), dtime is represented in WordPress applications as:
 
